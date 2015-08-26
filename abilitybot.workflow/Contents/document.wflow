@@ -54,13 +54,9 @@
 					<string>on run {input, parameters}
 
 	tell application "System Events"
-		repeat 100 times
-			delay 0.05
-			keystroke "q"
+		repeat 1000 times
+			delay 0.001
 			keystroke "w"
-			keystroke "e"
-			keystroke "r"
-			keystroke "h"
 		end repeat
 
 	end tell

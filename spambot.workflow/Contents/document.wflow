@@ -54,7 +54,7 @@
 					<string>on run {input, parameters}
 
 	tell application "System Events"
-		set fileContents to do shell script "cat ~/Documents/LeagueMacros/spam.txt"
+		set fileContents to do shell script "cat ~/League-Chat-Macro-Mac/spam.txt"
 		repeat 100 times
 			delay 0.01
 			key code 36

@@ -55,7 +55,7 @@
 
 	tell application "System Events"
 			repeat 100 times
-			delay 0.05
+			delay 0.1
 			keystroke " "
 			keystroke "h"
 		end repeat
